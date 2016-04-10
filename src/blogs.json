@@ -1,0 +1,16 @@
+[
+	{
+		"image":"/src/images/200px-DisplayLink-Logo.png",
+		"header":"Display port json",
+		"meta":"Installation instructions for ubuntu displayport driver",
+		"description":"I am here to share ...",
+		"date":"Mar 23, 2016"
+	},
+	{
+		"image":"/src/images/numenta.png",
+		"header":"Numenta as next gen machine learning and robotics engine",
+		"meta":"Outline of numenta's work",
+		"description":"kjkljlkdfas;ldkjfasdfa;lksjdgkasdg",
+		"date":"May 25, 2015"
+	}
+]
