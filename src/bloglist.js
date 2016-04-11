@@ -8,7 +8,7 @@ export class Bloglist{
 	}
 
 	activate(){
-		return this.http.fetch("/src/blogs.json").then(response => 
+		return this.http.fetch("/karthik/src/blogs.json").then(response => 
 			response.json()).then(data => {
 				this.blogs = data;
 			})
