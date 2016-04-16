@@ -1,10 +1,23 @@
+import {inject} from 'aurelia-framework'
 import {HttpClient} from "aurelia-fetch-client"
 
+@inject(HttpClient)
 export class Blog {
-	constructor(){
-		
+	
+	constructor(http){
+		// http.configure(config => {
+  //           config
+  //             .useStandardConfiguration()
+  //             .withBaseUrl('http://localhost:13102/api/');
+  //       });	
+        this.http = http;
 	}
+
 	activate(params){
-		return this.http.fetch(params.id) 
+		return this.http.fetch("/src/blogs.json").then(response => 
+			response.json()).then(data => {
+				console.log(data)
+				this.blog = data[params.id-1];
+			}) 
 	}
 }

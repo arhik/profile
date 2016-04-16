@@ -1,8 +1,30 @@
 <template>
-<div class="ui top attached segment">${blog.header}</div>
-	<div class="ui bottom attached segment">
-		<p>${blog.date}</p>
-		<p>${blog.meta}</p>
-		<p>${blog.description}</p>
+<div class="main" style="margin:0px 0px 0px 92px">
+		<div class="ui top attached secondary inverted grey segment menu">
+			Month
+		</div>
+		<div class="ui bottom attached segment">
+			  <div class="ui segment">
+			  	<div class="item">
+			    <div class="image">
+			      <img src.bind="blog.image">
+			    </div>
+			    <div class="content">
+			      <a class="header">${blog.header}</a>
+			      <div class="meta">
+			        <span>${blog.meta}</span>
+			      </div>
+			      <div class="description">
+			        <p>${blog.description}
+			        </p>
+			      </div>
+			      <div class="clear extra">
+			        posted on ${blog.date}
+			        <a route-href="route:Bloglist" class="ui circular bottom right red label" > back </a>
+			      </div>
+			    </div>
+			  </div>
+			  </div>
+		</div>
 	</div>
 </template>

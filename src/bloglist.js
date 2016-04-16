@@ -14,8 +14,8 @@ export class Bloglist{
 			})
 	}
 
-	attached(){
-		return  
-	}
+	// attached(){
+	// 	return  
+	// }
 
 }

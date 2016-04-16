@@ -4,7 +4,7 @@
 			Month
 		</div>
 		<div class="ui bottom attached segment">
-			<div class="ui divided items">
+			<div class="ui divided items" >
 			  <div class="item" repeat.for="blog of blogs">
 			    <div class="image">
 			      <img src.bind="blog.image">
@@ -20,7 +20,7 @@
 			      </div>
 			      <div class="clear extra">
 			        posted on ${blog.date}
-			        <a class="ui bottom right red label" route-href="route:blog; params.bind={id:blog.id}"  > read more </a>
+			        <a route-href="route:blog; params.bind:{id:blog.id}" class="ui circular bottom right red label" > read more </a>
 			      </div>
 			    </div>
 			  </div>

@@ -1,6 +1,6 @@
 [
 	{
-		"id" : "1",
+		"id" : 1,
 		"image":"/src/images/200px-DisplayLink-Logo.png",
 		"header":"Display port json",
 		"meta":"Installation instructions for ubuntu displayport driver",
@@ -9,7 +9,7 @@
 		"tags":["linux", "systems programming", "ubuntu"]
 	},
 	{
-		"id" : "2",
+		"id" : 2,
 		"image":"/src/images/numenta.png",
 		"header":"Numenta as next gen machine learning and robotics engine",
 		"meta":"Outline of numenta's work",
