@@ -10,7 +10,7 @@
 			      <img src.bind="blog.image">
 			    </div>
 			    <div class="content">
-			      <a class="header">${blog.header}</a>
+			      <a class="header" route-href="route:blog; params.bind:{id:blog.id}">${blog.header}</a>
 			      <div class="meta">
 			        <span>${blog.meta}</span>
 			      </div>
