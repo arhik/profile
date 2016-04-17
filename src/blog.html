@@ -1,5 +1,6 @@
 <template>
-<div class="main" style="margin:0px 0px 0px 92px">
+	<require from="svgtest"></require>
+	<div class="main" style="margin:0px 0px 0px 92px">
 		<div class="ui top attached secondary inverted grey segment menu">
 			Month
 		</div>
@@ -21,10 +22,15 @@
 			      <div class="clear extra">
 			        posted on ${blog.date}
 			        <a route-href="route:Bloglist" class="ui circular bottom right red label" > back </a>
+					<svg-intro></svg-intro>
+
 			      </div>
 			    </div>
 			  </div>
-			  </div>
+			</div>
 		</div>
+
 	</div>
+
+	
 </template>
