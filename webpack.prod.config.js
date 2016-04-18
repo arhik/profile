@@ -28,6 +28,10 @@ module.exports = {
     }),
     new ProvidePlugin({
       Promise: 'bluebird'
+    }),
+    new ProvidePlugin({
+      $:"jquery",
+      jQuery:"jquery"
     })
   ],
   resolve: {
