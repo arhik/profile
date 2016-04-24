@@ -2,6 +2,9 @@ import P5 from "p5";
 
 import {inject, bindable, customElement, Factory} from "aurelia-framework"
 
+
+// Dependency injection using resolver to modify the injected dependency
+// Factory of P5 is created
 @inject(Factory.of(P5))
 @customElement('p5-test')
 export class P5Test{

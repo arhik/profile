@@ -16,5 +16,14 @@
 		"description":"kjkljlkdfas;ldkjfasdfa;lksjdgkasdg",
 		"date":"May 25, 2015",
 		"tags":["Machine learning", "computational neuroscience", "algorithms"]
+	},
+	{
+		"id" : 3,
+		"image" : "/src/images/blender4web.png",
+		"header" : "Future of Enterprise education using blender game engine",
+		"meta":"Outline of blender4web",
+		"description":"jkda;lskjdfahsldjkhfa;skg",
+		"date":"Sept 2015",
+		"tags":["UI", "visualization"]
 	}
 ]

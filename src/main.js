@@ -4,6 +4,7 @@ import {bootstrap} from 'aurelia-bootstrapper-webpack';
 import '../node_modules/semantic-ui/dist/semantic.min.css';
 import '../node_modules/semantic-ui/dist/semantic.min.js';
 import '../styles/styles.css';
+import '../styles/arduinolight.css'
 // import '../node_modules/material-design-lite/dist/material.brown-deep_orange.min.css';
 // import '../node_modules/material-design-lite/dist/material.min.js';
 
