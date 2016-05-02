@@ -1,6 +1,6 @@
 <template>
 	<div class="main" style="margin:0px 0px 0px 92px;">
-		<div class="ui top attached tabular menu">
+		<div class="ui top attached tabular menu" ref="tabmenu">
   			<a class="item" data-tab="AboutMe">About Me</a>
   			<a class="active item" data-tab="Resume">Resume</a>
   			<a class="item" data-tab="Portfolio">Portfolio</a>
@@ -107,76 +107,105 @@
 									<div class="ten wide column">
 										<div class="ui vertically divided grid">
 											<div class="ui row" style="padding:0">
-												<div class="ten wide column">
+												<div class="four wide column">
 													Python
 												</div>
-												<!-- <div class="six wide column">
-													<i class="asterisk icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-												</div> -->
 												<div class="six wide column">
-													<div class="ui tiny  progress" data-percent="74" ref="python">
+													<div class="ui tiny progress" data-percent=80 ref="python">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" data-percent=80 ref="pythonExp">
+													  <div class="bar"></div>
+													  <div class="label">Experience(Large projects)</div>
+													</div>
+												</div>
+											</div>
+											<div class="ui row" style="padding:0">
+												<div class="four wide column">
+													C
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="C">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="CExp">
 													  <div class="bar"></div>
 													  <div class="label">Expertise</div>
 													</div>
 												</div>
 											</div>
 											<div class="ui row" style="padding:0">
-												<div class="ten wide column">
-													C
-												</div>
-												<div class="six wide column">
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-												</div>
-											</div>
-											<div class="ui row" style="padding:0">
-												<div class="ten wide column">
+												<div class="four wide column">
 													C++
 												</div>
 												<div class="six wide column">
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
+													<div class="ui tiny indicating progress" ref="cpp">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="cppExp">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
 												</div>
 											</div>
 											<div class="ui row" style="padding:0">
-												<div class="ten wide column">
+												<div class="four wide column">
 													Java
 												</div>
 												<div class="six wide column">
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
+													<div class="ui tiny indicating progress" ref="java">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="javaExp">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
 												</div>
 											</div>
 											<div class="ui row" style="padding:0">
-												<div class="ten wide column">
+												<div class="four wide column">
 													Go
 												</div>
 												<div class="six wide column">
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
+													<div class="ui tiny indicating progress" ref="go">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="goExp">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
 												</div>
 											</div>
 											<div class="ui row" style="padding:0">
-												<div class="ten wide column">
+												<div class="four wide column">
 													JavaScript
 												</div>
 												<div class="six wide column">
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
-													<i class="circle icon"></i>
+													<div class="ui tiny indicating progress" ref="js">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
+												</div>
+												<div class="six wide column">
+													<div class="ui tiny indicating progress" ref="jsExp">
+													  <div class="bar"></div>
+													  <div class="label">Expertise</div>
+													</div>
 												</div>
 											</div>
 										</div>
