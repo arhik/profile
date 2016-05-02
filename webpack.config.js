@@ -1,6 +1,6 @@
 /*eslint-disable no-var*/
-var subscript = require('markdown-it-sub');
-var superscript = require('markdown-it-sup');
+// var subscript = require('markdown-it-sub');
+// var superscript = require('markdown-it-sup');
 
 var path = require('path');
 var AureliaWebpackPlugin = require('aurelia-webpack-plugin');
@@ -44,13 +44,14 @@ module.exports = {
       { test: /\.woff2(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'url?limit=10000&minetype=application/font-woff2' },
       { test: /\.woff(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'url?limit=10000&minetype=application/font-woff' },
       { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'file' },
-      { test: require.resolve('snapsvg'), loader: 'imports-loader?this=>window,fix=>module.exports=0'},
-      { test:   /\.md/, loader: 'markdown-it'}
+      { test: require.resolve('snapsvg'), loader: 'imports-loader?this=>window,fix=>module.exports=0'}
+      // { test:   /\.md/, loader: 'markdown-it'}
     ]
-  },
-  'markdown-it': {
-      preset: 'default',
-      typographer: true,
-      use: [subscript, superscript]
-    }
+  }
+  // },
+  // 'markdown-it': {
+  //     preset: 'default',
+  //     typographer: true,
+  //     use: [subscript, superscript]
+  //   }
 };
