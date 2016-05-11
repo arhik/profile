@@ -14,10 +14,10 @@ export class Blog {
 	}
 
 	activate(params){
-		return this.http.fetch("/src/blogs.json").then(response => 
+		return this.http.fetch("http://localhost:3000/blogs").then(response => 
 			response.json()).then(data => {
 				console.log(data)
 				this.blog = data[params.id-1];
-			}) 
+			})
 	}
 }
