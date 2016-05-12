@@ -1,7 +1,7 @@
 [
 	{
 		"id" : 1,
-		"image":"http://localhost:3000/images/200px-DisplayLink-Logo.png",
+		"image":"/images/200px-DisplayLink-Logo.png",
 		"header":"Display port json",
 		"meta":"Installation instructions for ubuntu displayport driver",
 		"description":"I am here to share ...",
@@ -10,7 +10,7 @@
 	},
 	{
 		"id" : 2,
-		"image":"http://localhost:3000/images/numenta.png",
+		"image":"/images/numenta.png",
 		"header":"Numenta as next gen machine learning and robotics engine",
 		"meta":"Outline of numenta's work",
 		"description":"kjkljlkdfas;ldkjfasdfa;lksjdgkasdg",
@@ -19,7 +19,7 @@
 	},
 	{
 		"id" : 3,
-		"image" : "http://localhost:3000/images/blender4web.png",
+		"image" : "/images/blender4web.png",
 		"header" : "Future of Enterprise education using blender game engine",
 		"meta":"Outline of blender4web",
 		"description":"jkda;lskjdfahsldjkhfa;skg",

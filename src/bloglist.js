@@ -7,7 +7,7 @@ export class Bloglist{
 		this.http = Http;
 		this.http.configure(config => {
     config
-        .withBaseUrl('/')
+        // .withBaseUrl('/')
         .withDefaults({
             credentials: 'no-cors',
             headers: {
@@ -30,7 +30,7 @@ export class Bloglist{
 	}
 
 	activate(){
-		return this.http.fetch("http://localhost:3000/blogs").then(response => 
+		return this.http.fetch("/blogs").then(response => 
 			response.json()).then(data => {
 				console.log(data)
 				this.blogs = data;
