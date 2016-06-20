@@ -11,7 +11,6 @@ import json
 from bson import json_util
 db = motor.motor_tornado.MotorClient().arhik
 
-
 class BlogsHandler(tornado.web.RequestHandler):
     async def get(self):
         db = self.settings['db']
