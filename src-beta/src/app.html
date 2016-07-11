@@ -1,0 +1,56 @@
+<template>
+	<require from="css/app.css"></require>
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<!--<header class="site-header">Hello I am Karthik.</header>-->
+	<div class="site-content">
+		<div class="sidebar">
+			<a href="#" style="text-decoration:none; outline:0">
+				<div id="btn" class="flexitem flexitem1" >
+				  <i class="fa fa-home" aria-hidden="true"></i>
+				</div>
+			</a>
+			<a href="#" style="text-decoration:none; outline:0">
+				<div id="btn2" class="flexitem flexitem2" >
+				  <i class="fa fa-file" aria-hidden="true"></i>
+
+				</div>
+			</a>
+			<a href="#" style="text-decoration:none; outline:0">
+				<div id="btn3" class="flexitem flexitem3" >
+					<i class="fa fa-github " aria-hidden="true"></i>
+				</div>
+			</a>
+			<a href="#" style="text-decoration:none; outline:0">
+				<div class="flexitem flexitem4">
+					<i class="fa fa-github" aria-hidden="true"></i>
+				</div>
+			</a>
+			<a href="#" style="text-decoration:none; outline:0">
+				<div class="flexitem flexitem5">
+					<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+				</div>
+			</a>
+		  	<a href="#" style="text-decoration:none; outline:0">
+				<div class="flexitem flexitem2">
+					<i class="fa fa-tasks" aria-hidden="true"></i>
+				</div>
+			</a>
+		</div>
+	  	<div class="flexcontainer"  style="overflow-y: auto">
+			<div class="flexcontainer page-host" style="outline:0">
+				<router-view class="flexcontainer"></router-view>
+			</div>
+	  	</div>
+	  	<div class="flexitem" style="color:#FFFFFF; background: #343254 ;flex: 1 0 0; align-items: left; justify-content: flex-left; padding: 1em">
+	           My updates? <br>
+	           <li>
+	             Currently working on High Performance Computing problem.
+	           </li>
+	           <li>
+	             learning	capnp protocol and aurelia webframework
+	           </li>
+
+	      </div>
+	</div>
+	<!--<footer class="site-footer">Hello I am footer</footer>-->
+</template>

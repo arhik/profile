@@ -1,0 +1,209 @@
+html
+{
+	box-sizing: border-box;
+}
+body
+{
+      	margin:0;
+      	width:100vw;
+      	height:100vh;
+      	display:flex;
+      	font-family:'Quicksand', sans-serif;
+	flex-direction:column;
+}
+
+.site-header, .site-footer
+{
+	background: #2E4053 ;
+	height:2em;
+	padding:1em 0em 0em 0em;
+	margin:0px;
+	text-align:center;
+	color:#FFF;
+	flex:none
+}
+
+.site-content
+{
+	display:flex;
+	margin:0;
+	height:100vh;
+	flex-direction: row;
+}
+
+.sidebar
+{
+	background:#445481;
+	flex-direction:row;
+	margin:0;
+	z-index:1;
+	box-shadow:0px 0px 10px #111;
+}
+
+.main-content
+{
+	flex-direction:column;
+	flex-grow:8;
+}
+
+.site-segment
+{
+	background:#FFFFFF;
+	border-style:"solid";
+	border-radius: 5px;
+	border-color:#92C5C5;
+	border-width:0px 0px 0px 10px;
+	color:#000000;
+}
+
+.flexrowcontainer
+{
+	margin:0;
+	padding:0;
+	flex-direction:row;
+	flex-grow:1
+}
+
+.flexcontainer
+{
+	margin:0;
+	padding:0;
+	flex-direction:row;
+	flex-grow:1
+}
+
+.flexitem
+{
+	color : #FFF;
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+	flex-grow:1
+}
+
+.flexitem1
+{
+	background:#345396;
+}
+
+.flexitem1:hover
+{
+	background:#342342;
+}
+
+.flexitem1.focus
+{
+	background: rgba(#342342,0.5)
+}
+
+.flexitem1:target
+{
+	background: #563474;
+	border-color:rgba(250,250,250,.64);
+	border-style: solid;
+	border-width:0px 0px 0px 3px;
+
+}
+
+.flexitem2
+{
+	background:#F44396;
+}
+
+.flexitem2:hover
+{
+	background:#644356;
+}
+
+.flexitem2.focus
+{
+	background: rgba(#644356,0.5)
+}
+
+.flexitem2:target
+{
+	background: #644356;
+	border-color:rgba(250,250,250,.64);;
+	border-style: solid;
+	border-width:0px 0px 0px 3px;
+}
+
+.flexitem3
+{
+	background: #F45361;
+}
+
+.flexitem3:hover
+{
+	background:#644356;
+}
+
+.flexitem2.focus
+{
+	background: rgba(#644356,0.5)
+}
+
+.flexitem3:target
+{
+	background: #644356;
+	border-color:rgba(250,250,250,.64);;
+	border-style: solid;
+	border-width:0px 0px 0px 3px;
+
+}
+
+.flexitem4
+{
+	background: #50D3C4;
+}
+
+.flexitem5
+{
+	background: #A4A351;
+}
+
+.flexshrink
+{
+	background: #222023;
+	flex-shrink:1
+}
+
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: solid 0 0 1px rgba(0,0,0,0.3);
+	background-color: #444444  ;
+}
+
+::-webkit-scrollbar
+{
+	width: 2px;
+	background-color: #444444;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #F1C40F;
+	border: 0px solid #444444  ;
+}
+
+@media screen and (max-width: 500px)
+{
+	.site-content
+	{
+		display:flex;
+		margin:0;
+		height:100vh;
+		flex-direction: column;
+	}
+	.sidebar
+	{
+		background:#445481;
+		display:flex;
+		flex-direction:row;
+		justify-content:stretch;
+		margin:0;
+		z-index:1;
+		box-shadow:0px 0px 10px #111;
+	}
+}
